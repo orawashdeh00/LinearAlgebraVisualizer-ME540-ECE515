@@ -2,7 +2,7 @@
 An interactive web application for visualizing fundamental linear algebra concepts with applications in control theory. This tool provides intuitive visualizations and detailed mathematical analysis to help understand core linear algebra concepts used in control systems.
 # Linear Algebra Visualizer - ME540 Control Theory Project
 
-======================================================================================================
+=====================================================================
 
 ## 🚀 Quick Start
 
@@ -43,7 +43,7 @@ The application will automatically open in your default web browser at http://lo
 VERY IMPORTANT
 ***Any method you run it with you will need the CMD or Anaconda console to be at the path of app.py***
 
-======================================================================================================
+=====================================================================
 Troubleshooting
 
 Common Issues
@@ -69,7 +69,7 @@ Import errors:
     Ensure Plotly is correctly installed
     Check browser compatibility (Chrome/Firefox recommended)
 
-======================================================================================================
+=====================================================================
 
 Verification Commands
 
@@ -79,7 +79,7 @@ python -c "import streamlit, numpy, plotly; print('All packages installed')"
 # Check Streamlit version
 streamlit --version
 
-======================================================================================================
+=====================================================================
 
 File Descriptions
 ------------------
@@ -115,7 +115,7 @@ File Descriptions
 
         Plotly (visualizations)
 
-======================================================================================================
+=====================================================================
 
 🎯 How to Use
 Basic Navigation
@@ -164,7 +164,7 @@ Export/Import (High-Dimensional Calculator)
 
     Import JSON: Load previously saved matrices
 
-======================================================================================================
+=====================================================================
 
 Available Visualizations
 1. Welcome / Instructions
