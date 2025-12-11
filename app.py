@@ -20,6 +20,7 @@ from visualizations import (
 )
 import json
 import datetime
+import pandas as pd
 
 # ============ PAGE CONFIGURATION ============
 st.set_page_config(
