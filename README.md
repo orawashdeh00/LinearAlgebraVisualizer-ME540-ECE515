@@ -1,8 +1,6 @@
 # LinearAlgebraVisualizer-ME540-ECE515
 An interactive web application for visualizing fundamental linear algebra concepts with applications in control theory. This tool provides intuitive visualizations and detailed mathematical analysis to help understand core linear algebra concepts used in control systems.
-# Linear Algebra Visualizer - ME540 Control Theory Project
-
-=====================================================================
+# Linear Algebra Visualizer
 
 ## 🚀 Quick Start
 
@@ -32,32 +30,35 @@ conda install -c conda-forge streamlit numpy plotly
 # Run the application
 streamlit run app.py
 
-Alternative: Anaconda Prompt (Windows)
+# Alternative: Anaconda Prompt (Windows)
 
-# Open Anaconda Prompt, navigate to project folder
+Open Anaconda Prompt, navigate to project folder
 cd path\to\project\folder
 streamlit run app.py
 
 The application will automatically open in your default web browser at http://localhost:8501.
 
-VERY IMPORTANT
-***Any method you run it with you will need the CMD or Anaconda console to be at the path of app.py***
+# VERY IMPORTANT
+# **Any method you run it with you will need the CMD or Anaconda console to be at the path of app.py**
 
-=====================================================================
-Troubleshooting
+# Troubleshooting
 
 Common Issues
---------------------------------
+
 Port already in use:
+--------------------------------
 	streamlit run app.py --server.port 8502
 --------------------------------
 Package installation fails:
+
 	pip install --upgrade pip
 	pip install --no-cache-dir -r requirements.txt
 --------------------------------
 Python not found (Windows CMD):
+
 	Use Anaconda Prompt instead
 Or specify full Python path:
+
 	"C:\Users\YourName\anaconda3\python.exe" -m streamlit run app.py (example path)
 --------------------------------
 Import errors:
@@ -69,17 +70,17 @@ Import errors:
     Ensure Plotly is correctly installed
     Check browser compatibility (Chrome/Firefox recommended)
 
-=====================================================================
 
-Verification Commands
 
-# Check installation
-python -c "import streamlit, numpy, plotly; print('All packages installed')"
+# Verification Commands
 
-# Check Streamlit version
-streamlit --version
+Check installation
+	python -c "import streamlit, numpy, plotly; print('All packages installed')"
 
-=====================================================================
+Check Streamlit version
+	streamlit --version
+
+
 
 File Descriptions
 ------------------
@@ -115,7 +116,7 @@ File Descriptions
 
         Plotly (visualizations)
 
-=====================================================================
+
 
 🎯 How to Use
 Basic Navigation
@@ -164,7 +165,7 @@ Export/Import (High-Dimensional Calculator)
 
     Import JSON: Load previously saved matrices
 
-=====================================================================
+
 
 Available Visualizations
 1. Welcome / Instructions
