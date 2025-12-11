@@ -225,9 +225,7 @@ if visualization_type == "Welcome / Instructions":
     
     # Quick start guide
     with st.expander("📋 Quick Start Guide", expanded=True):
-        st.markdown("""
-        **For the TA evaluating this project:**
-        
+        st.markdown("""      
         1. **Run the app**: `streamlit run app.py`
         2. **Test visualizations**:
            - Review README.txt for setup instructions
@@ -1585,4 +1583,5 @@ st.markdown("""
 
 **Randomization:** Click the 🎲 buttons to generate random matrices/vectors
 **Note:** Inputs automatically update when you change values
+
 """)
